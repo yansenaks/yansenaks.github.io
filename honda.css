@@ -1,0 +1,458 @@
+@keyframes line_1 {
+    from {
+        margin-top: 50px;
+        width: 44px;
+        height: 0px;
+        transform: rotate(125deg) translate(303px,-90px); 
+    }
+    to {
+        margin-top: 50px;
+        width: 44px;
+        height: 201px;
+        transform: rotate(125deg) skew(60deg) translate(83px,-90px); 
+    }
+}
+
+@keyframes line_11 {
+    from {
+        transform: rotate(-90deg);
+    }
+    to {
+        transform: rotate(-23deg) translate(15px,-104.9px);
+    }
+}
+
+@keyframes bulat1 {
+    from {
+        border-radius: 0%;
+        transform: rotate(3600deg);
+    }
+    to {
+        transform:rotate(-5deg) skew(-20deg) translate(-77.2px,-46.5px);
+    }
+}  
+
+@keyframes bulat2 {
+    0% {
+        transform: translate(800px);
+    }
+    
+    100% {
+        transform: rotate(-30deg) skew(5deg) translate(-8.8px,-34.3px);
+    }
+}
+
+@keyframes bulat3 {
+    0% {
+        transform: translatex(-1000px);
+        border-radius: 0%;
+    }
+    90% {
+        transform:rotate(50deg) skew(-40deg,20deg) translate(84px,-249.3px);
+        border-radius: 0%;
+    }
+    100% {
+        transform:rotate(1deg) skew(-40deg,20deg) translate(84px,-249.3px);
+    }
+}
+
+@keyframes line_2 {
+    from {
+        width: 0px;
+        height: 0px;
+        transform: skew(-43deg) translateX(100px);
+    }
+    to {
+        transform: skew(42deg) translateX(-19px);
+    }
+}
+
+@keyframes garis2 {
+    0% {
+        opacity: 0;
+        transform: rotate(-50deg) scale(.8) translate(380px,-565px);
+    }
+    80% {
+        opacity: 0;
+        transform: rotate(-50deg) scale(.8) translate(380px,-565px);
+    }
+    100% {
+        
+        transform: rotate(4deg) scale(.8) translate(-28px,-435px);
+    }
+}
+
+@keyframes garis3 {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+        transform:rotate(7deg) scale(.7)translate(-120px,-775px);
+    }
+    100% {
+        opacity: 100;
+        transform:rotate(7deg) scale(.7)translate(-120px,-775px);
+        
+    }
+}
+@keyframes putih {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+@keyframes garis4 {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+        transform:rotate(11.5deg) scale(0.6) translate(-305px,-1240px);
+
+    }
+    100% {
+        opacity: 100;
+        transform:rotate(11.5deg) scale(0.59) translate(-305px,-1240px);
+    }
+}
+
+@keyframes kotak456 {
+    0% {
+        width: 0px;
+        height: 0px;
+    }
+    80% {
+        width: 0px;
+        height: 24px;
+    }
+    100% {
+        width: 130px;
+        height: 24px;
+        transform: rotate(-9deg) skew(49deg) translate(3px,31px) ;
+        
+    }
+
+}
+@keyframes kotak123 {
+    0% {
+        width: 0px;
+        height: 0px;
+        
+    }
+    80% {
+        width: 0px;
+        height: 24px;
+    }
+    
+    100% {
+        width: 160px;
+        height: 24px;
+        transform: skew(56deg) translate(-8px,35px) ;
+    }
+}
+@keyframes honda {
+    0% {
+        color: floralwhite;
+    }
+    80% {
+        color: floralwhite;
+    }
+    100% {
+        color: red;
+    }
+}
+@keyframes o {
+    0% {
+        left: -700px;
+        transform: rotate(-2200deg);
+    }
+    90% {
+        left: 40px;
+        transform: rotate(110deg);
+    }
+    100% {
+        left: 15px;
+        transform: rotate(0deg);
+    }
+}
+/* GARIS PERTAMA */
+
+@keyframes oneheart {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.sayap2 {
+    width: 400px;
+    height: 400px;
+    padding-left: 120px;
+    position: absolute;
+    transform: scale(.1) translate(-750px20px);
+    
+}
+
+/* GARIS PERTAMA */
+.line_1c {
+    margin-top: 50px;
+    width: 44px;
+    height: 201px;
+    background: floralwhite;
+    animation: line_1 2s ease forwards;
+}
+
+.line_11c {
+    width: 325px;
+    height: 18px;
+    background: floralwhite;
+    position: absolute;
+    animation: line_11 2s ease forwards;
+}
+
+.bulat1c {
+    width: 58px;
+    height: 51px;
+    background: floralwhite;
+    border-radius: 50% 0 50% 50%;
+    position: absolute;
+    animation: bulat1 2s ease forwards;
+
+}
+.line112c {
+    width: 58px;
+    height: 20px;
+    background: floralwhite;
+    
+    position: absolute;
+    transform:rotate(-45deg) skewY(20deg) translate(0px,-67px);
+
+}
+
+.bulat2c {
+    width: 50px;
+    height: 30px;
+    background: red;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    animation: bulat2 2.5s ease forwards;
+    
+}
+/* set garis2,3,4 */
+.line_110c {
+    width: 330px;
+    height: 25px;
+    background:floralwhite;
+    position: absolute;
+    transform: rotate(-23deg) translate(20px,-105px);
+}
+.bulat30c {
+    width: 30px;
+    height: 67px;
+    background: floralwhite;
+    position: absolute;
+    border-radius: 50%;
+    transform:rotate(-1deg) skew(-40deg,25deg) translate(93px,-249px);
+}
+.bulat40c {
+    width: 50px;
+    height: 45px;
+    background: floralwhite;
+    border-radius: 10px;
+    position: absolute;
+    transform:rotate(-2deg) skew(-48deg) rotate(-32deg) translate(157px,-101px);
+}
+
+/* akhir set garis2,3,4 */
+/* GARIS KEDUA */
+.bulat22c {
+    width: 50px;
+    height: 30px;
+    background: floralwhite;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    transform: rotate(-30deg) skew(5deg) translate(-40px,-64px);
+}
+/* garis ke3 */
+.kotak1c {
+    width: 50px;
+    height: 30px;
+    background: floralwhite;
+    position: absolute;
+    transform:rotate(-48deg) skewY(25deg) translate(-8px,-66px);
+}
+
+
+.bulat3c {
+    width: 23px;
+    height: 67px;
+    background: floralwhite;
+    position: absolute;
+    border-radius: 50%;
+    animation: bulat3 2s ease forwards;
+}
+
+.bulat4c {
+    width: 50px;
+    height: 45px;
+    background: floralwhite;
+    border-radius: 10px;
+    position: absolute;
+    transform: skew(-45deg) rotate(-32deg) translate(168px,-119px);
+}
+
+.line_2c {
+
+    width: 36px;
+    height: 100px;
+    background: floralwhite;
+    position: relative;
+    animation: line_2 2s ease forwards;
+    z-index: 999;
+    
+
+}
+
+.line3c {
+    border: 10px solid transparent;
+    width: 0;
+    height: 0;
+    border-bottom: 30px solid floralwhite;
+    transform: skew(38deg) translate(35px, -40px);
+}
+
+/* PENUTUP GARIS PERTAMA */
+
+.putihc {
+    width: 6px;
+    height: 130px;
+    background: red;
+    position: absolute;
+    transform: rotate(-42deg) translate(117px,-100px);
+    z-index: 999;
+    animation: putih 2.2s ease forwards;
+    
+}
+
+.garis2c {
+    animation: garis2 2.5s ease forwards;
+    z-index: 9;
+}
+
+.kotakc {
+    width: 115px;
+    height: 20px;
+    border-radius: 5%;
+    background: floralwhite;
+    position: absolute;
+    transform: rotate(-43deg) skewY(20deg) translate(-50px,-56px);
+}
+
+.kotak2c {
+    width: 115px;
+    height: 24px;
+    border-radius: 5%;
+    background: floralwhite;
+    position: absolute;
+    transform: rotate(-58deg) skewY(35deg) translate(20px,-65px);
+}
+.kotak3c {
+    width: 180px;
+    height: 24px;
+    border-radius: 5%;
+    background: floralwhite;
+    position: absolute;
+    transform: rotate(-63deg) skewY(41deg) translate(25px,-85px);
+}
+
+.garis3c {
+    animation: garis3 3s ease forwards;
+}
+
+.garis4c {
+    position: relative;
+    animation: garis4 3.5s ease forwards;
+}
+.garis5c {
+    transform: translateY(-100px);
+}
+
+.kotak456c {
+    
+    border-radius: 5%;
+    background: floralwhite;
+    position: absolute;
+    animation: kotak456 3.7s ease forwards;
+}
+.tagc {
+    width: 390px;
+    height: 80px;
+    position: absolute;
+    font-family: 'Volkhov', serif;
+    transform: scale(3) translate(320px,-250px);
+}
+.Hc {
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 100px;
+    top: 290px;
+    left: -70px;
+}
+.Oc {
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 100px;
+    top: 290px;
+    left: 15px;
+}
+.Nc {
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 100px;
+    top: 290px;
+    left: 95px;
+    
+}
+.Dc {
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 100px;
+    top: 290px;
+    left: 190px;
+}
+.Ac {
+    color: floralwhite;
+    font-weight: bolder;
+    position: absolute;
+    font-size: 100px;
+    top: 290px;
+    left: 270px;
+    
+}
+
+.footer {
+    background-color: floralwhite;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    z-index: 99999;
+}
+

@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo honda</title>
+    <link rel="stylesheet" href="honda.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Volkhov:wght@700&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        .container {
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+        .oneheart {
+            width: 500px;
+            height: 500px;
+            position: absolute;
+            background: red;
+            text-align: center;
+            font-size: 100px;
+            color: floralwhite;
+            border-radius: 50%;
+            font-family: 'Passion One', cursive;
+            font-family: 'Volkhov', serif;
+            animation: oneheart 5.3s ease forwards;
+            z-index: 9999;
+        }
+        .one {
+            padding-top: 150px;
+            text-align: center;
+        }
+        .heart {
+            text-align: center;
+            position: absolute;
+            top: 230px;
+            left: 60px;
+        }
+        .tirai {
+            width: 600px;
+            height: 500px;
+            background: floralwhite;
+            position: absolute;
+            animation: tirai 5s ease forwards;
+        }
+        @keyframes tirai {
+            0% {
+                opacity: 0;
+            }
+            80% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        .tag {
+            width: 390px;
+            height: 80px;
+            position: absolute;
+            top: 40px;
+            font-family: 'Volkhov', serif;
+        }
+        .H {
+            
+            font-weight: bolder;
+            position: absolute;
+            font-size: 100px;
+            top: 290px;
+            left: -70px;
+            animation: honda 3.5s ease forwards;
+        }
+        .O {
+            color: red;
+            font-weight: bolder;
+            position: absolute;
+            font-size: 100px;
+            top: 290px;
+            animation: o 3s ease forwards;
+        }
+        .N {
+            font-weight: bolder;
+            position: absolute;
+            font-size: 100px;
+            top: 290px;
+            left: 95px;
+            animation: honda 3.5s ease forwards;
+        }
+        .D {
+            font-weight: bolder;
+            position: absolute;
+            font-size: 100px;
+            top: 290px;
+            left: 190px;
+            animation: honda 3.5s ease forwards;
+        }
+        .A {
+            font-weight: bolder;
+            position: absolute;
+            font-size: 100px;
+            top: 290px;
+            left: 270px;
+            animation: honda 3.5s ease forwards;
+        }
+        
+        .sayap {
+            background-color: floralwhite;
+            width: 400px;
+            height: 400px;
+            padding-left: 120px;
+            position: absolute;
+            animation: sayap 4s ease forwards;
+        }
+
+        /* GARIS PERTAMA */
+        .line_1 {
+            margin-top: 50px;
+            width: 44px;
+            height: 201px;
+            background: red;
+            animation: line_1 2s ease forwards;
+        }
+
+        .line_11 {
+            width: 325px;
+            height: 18px;
+            background: red;
+            position: absolute;
+            animation: line_11 2s ease forwards;
+        }
+
+        .bulat1 {
+            width: 58px;
+            height: 51px;
+            background: red;
+            border-radius: 50% 0 50% 50%;
+            position: absolute;
+            animation: bulat1 2s ease forwards;
+
+        }
+        .line112 {
+            width: 58px;
+            height: 20px;
+            background: red;
+            
+            position: absolute;
+            transform:rotate(-45deg) skewY(20deg) translate(0px,-67px);
+
+        }
+
+        .bulat2 {
+            width: 50px;
+            height: 30px;
+            background: rgb(255, 255, 255);
+            border-radius: 50% 50% 50% 50%;
+            position: absolute;
+            animation: bulat2 2.5s ease forwards;
+            
+        }
+        /* set garis2,3,4 */
+        .line_110 {
+            width: 330px;
+            height: 25px;
+            background:red;
+            position: absolute;
+            transform: rotate(-23deg) translate(20px,-105px);
+        }
+        .bulat30 {
+            width: 30px;
+            height: 67px;
+            background: red;
+            position: absolute;
+            border-radius: 50%;
+            transform:rotate(-1deg) skew(-40deg,25deg) translate(93px,-249px);
+        }
+        .bulat40 {
+            width: 50px;
+            height: 45px;
+            background: red;
+            border-radius: 10px;
+            position: absolute;
+            transform:rotate(-2deg) skew(-48deg) rotate(-32deg) translate(157px,-101px);
+        }
+        
+        /* akhir set garis2,3,4 */
+        /* GARIS KEDUA */
+        .bulat22 {
+            width: 50px;
+            height: 30px;
+            background: RED;
+            border-radius: 50% 50% 50% 50%;
+            position: absolute;
+            transform: rotate(-30deg) skew(5deg) translate(-40px,-64px);
+        }
+        /* garis ke3 */
+        .kotak1 {
+            width: 50px;
+            height: 30px;
+            background: red;
+            position: absolute;
+            transform:rotate(-48deg) skewY(25deg) translate(-8px,-66px);
+        }
+        
+
+        .bulat3 {
+            width: 23px;
+            height: 67px;
+            background: red;
+            position: absolute;
+            border-radius: 50%;
+            animation: bulat3 2s ease forwards;
+        }
+
+        .bulat4 {
+            width: 50px;
+            height: 45px;
+            background: red;
+            border-radius: 10px;
+            position: absolute;
+            transform: skew(-45deg) rotate(-32deg) translate(168px,-119px);
+        }
+
+        .line_2 {
+
+            width: 36px;
+            height: 100px;
+            background: red;
+            position: relative;
+            animation: line_2 2s ease forwards;
+            z-index: 0;
+}
+
+        .line3 {
+            border: 10px solid transparent;
+            width: 0;
+            height: 0;
+            border-bottom: 30px solid red;
+            transform: skew(38deg) translate(35px, -40px);
+        }
+
+        /* PENUTUP GARIS PERTAMA */
+
+        .putih {
+            width: 6px;
+            height: 130px;
+            background: floralwhite;
+            position: absolute;
+            transform: rotate(-42deg) translate(117px,-100px);
+            z-index: 999;
+            animation: putih 2.2s ease forwards;
+            
+        }
+
+        .garis2 {
+            animation: garis2 2.5s ease forwards;
+            z-index: 9;
+        }
+
+        .kotak {
+            width: 115px;
+            height: 20px;
+            border-radius: 5%;
+            background: red;
+            position: absolute;
+            transform: rotate(-43deg) skewY(20deg) translate(-50px,-56px);
+        }
+
+        .kotak2 {
+            width: 115px;
+            height: 24px;
+            border-radius: 5%;
+            background: red;
+            position: absolute;
+            transform: rotate(-58deg) skewY(35deg) translate(20px,-65px);
+        }
+        .kotak3 {
+            width: 180px;
+            height: 24px;
+            border-radius: 5%;
+            background: red;
+            position: absolute;
+            transform: rotate(-63deg) skewY(41deg) translate(25px,-85px);
+        }
+
+        .garis3 {
+            animation: garis3 3s ease forwards;
+        }
+
+        .garis4 {
+            position: relative;
+            animation: garis4 3.5s ease forwards;
+        }
+        .garis5{
+            transform: translateY(-100px);
+        }
+        .kotak123 {
+            
+            border-radius: 5%;
+            background: red;
+            position: absolute;
+            animation: kotak123 3.8s ease forwards;
+        }
+        .kotak456 {
+            
+            border-radius: 5%;
+            background: red;
+            position: absolute;
+            animation: kotak456 3.7s ease forwards;
+        }
+        .sayap2 {
+            position: absolute;
+            transform: scale(.09) translate(-700px,-1200px);
+            animation: sayap2 5.5s ease forwards;
+            z-index: 99999999;
+        }
+        @keyframes sayap2 {
+            0% {
+                opacity: 0;
+            }
+            80% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        
+        <div class="sayap2">
+            <div class="tagc">
+                <div class="Hc">H</div>
+                <div class="Oc"><strong>O</strong></div>
+                <div class="Nc"><bold>N</bold></div>
+                <div class="Dc">D</div>
+                <div class="Ac">A</div>
+            </div>
+            <!-- GARIS PERTAMA -->
+            <div class="garis1c">
+                <div class="line_1c"></div>
+                <div class="line_11c"></div>
+                <div class="bulat1c"></div>
+                <div class="bulat2c"></div>
+                <div class="bulat3c"></div>
+                <div class="bulat4c"></div>
+                <div class="line_2c"></div>
+                <div class="line3c"></div>
+            </div>
+            <!-- PENUTUP GARIS PERTAMA -->
+            <div class="putihc"></div>
+            <div class="garis5c">
+                <div class="kotak123c"></div>
+                <div class="kotak456c"></div>
+            </div>
+            <div class="garis2c">
+                <div class="line_1c"></div>
+                <div class="line_110c"></div>
+                <div class="line112c"></div>
+                <div class="bulat22c"></div>
+                <div class="bulat3c"></div>
+                <div class="bulat40c"></div>
+                <div class="kotakc"></div>
+            </div>
+            <div class="garis3c">
+                <div class="line_1c"></div>
+                <div class="line_110c"></div>
+                <div class="line112c"></div>
+                <div class="kotak1c"></div>
+                <div class="bulat30c"></div>
+                <div class="kotak2c"></div>
+            </div>
+            <div class="garis4c">
+                <div class="line_1c"></div>
+                <div class="line_110c"></div>
+                <div class="line112c"></div>
+                <div class="kotak123c"></div>
+                <div class="bulat30c"></div>
+                <div class="kotak3c"></div>
+            </div>
+        </div>
+        <div class="sayap">
+            <div class="tag">
+                <div class="H">H</div>
+                <div class="O"><strong>O</strong></div>
+                <div class="N"><bold>N</bold></div>
+                <div class="D">D</div>
+                <div class="A">A</div>
+            </div>
+            <!-- GARIS PERTAMA -->
+            <div class="garis1">
+                <div class="line_1"></div>
+                <div class="line_11"></div>
+                <div class="bulat1"></div>
+                <div class="bulat2"></div>
+                <div class="bulat3"></div>
+                <div class="bulat4"></div>
+                <div class="line_2"></div>
+                <div class="line3"></div>
+            </div>
+            <!-- PENUTUP GARIS PERTAMA -->
+            <div class="putih"></div>
+            <div class="garis5">
+                <div class="kotak123"></div>
+                <div class="kotak456"></div>
+            </div>
+            <div class="garis2">
+                <div class="line_1"></div>
+                <div class="line_110"></div>
+                <div class="line112"></div>
+                <div class="bulat22"></div>
+                <div class="bulat3"></div>
+                <div class="bulat40"></div>
+                <div class="kotak"></div>
+            </div>
+            <div class="garis3">
+                <div class="line_1"></div>
+                <div class="line_110"></div>
+                <div class="line112"></div>
+                <div class="kotak1"></div>
+                <div class="bulat30"></div>
+                <div class="kotak2"></div>
+            </div>
+            <div class="garis4">
+                <div class="line_1"></div>
+                <div class="line_110"></div>
+                <div class="line112"></div>
+                <div class="kotak1"></div>
+                <div class="bulat30"></div>
+                <div class="kotak3"></div>
+            </div>
+        </div>
+        <div class="tirai"></div>
+        <div class="oneheart">
+            <div class="one">One</div>
+            <div class="heart">HEART.</div>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <p class="copy">&copy; 2022. Yansen Aksena.</p>
+    </div>
+    
+</body>
+
+</html>
